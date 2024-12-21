@@ -1,0 +1,3 @@
+# Race Condition in Concurrent Counter
+
+This repository demonstrates a race condition that can occur when multiple threads concurrently access and modify a shared variable. The `Counter` class is designed to increment a counter, but when used in a multithreaded environment without proper synchronization, the final count may be less than expected due to race conditions. This code provides a simple example to illustrate this concept. The solution demonstrates a simple way to fix this issue using synchronization mechanisms.
